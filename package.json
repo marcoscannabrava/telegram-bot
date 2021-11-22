@@ -1,0 +1,24 @@
+{
+  "name": "telegram-bot",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node server.js",
+    "test": "jest"
+  },
+  "type": "module",
+  "dependencies": {
+    "@mtproto/core": "^6.0.1",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "dotenv": "^10.0.0",
+    "express": "~4.16.1",
+    "morgan": "~1.9.1",
+    "node-telegram-bot-api": "^0.54.0"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-runtime": "^7.16.4",
+    "@babel/preset-env": "^7.16.4",
+    "jest": "^27.3.1"
+  }
+}
